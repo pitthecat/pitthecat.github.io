@@ -1,0 +1,209 @@
+﻿body {
+	background-color: #B3B3B3;
+}
+
+#Top {	
+	height: 200px;
+	width: 90%;
+	margin: auto;
+	background-image: url("nepal.jpg");
+	background-position: center;	
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+#Navi {
+	color:white;
+	margin:auto;
+	background-color: #A4A4A4;
+	width: 90%;	
+}
+
+h2  {
+	text-align:center;	
+	word-spacing:5em;	
+}
+
+h3	{
+	text-align:center;
+	color:white;
+}
+#Mapframe {
+  display:block;
+  margin:auto;
+}
+
+#FAQ {
+	text-align:center;
+	color:white;
+}
+
+#Impressions { 
+	width: 90%;
+	background-color: #A4A4A4;
+	color:white;
+	margin:auto;
+	font-size: 30px;
+	
+}
+
+#FAQ {
+	width: 90%;
+	background-color: #A4A4A4;
+	color:white;
+	margin:auto;
+	font-size: 30px;	
+}
+
+#FAQinhalt {
+	display: block;
+	width: 90%;
+	margin: auto;
+	color:white;
+	text-align:center;
+}
+
+#Treks {
+	width: 90%;
+	background-color: #A4A4A4;
+	color:white;
+	margin:auto;
+	font-size: 30px;	
+}
+
+#TreksInhalt {
+	width: 90%;
+	display: block;
+	margin: auto;
+	color:white;
+	text-align:center;
+}
+
+}
+.sliderElements,
+.sliderElements figure,
+.sliderControls {
+    margin: 0;
+}
+ 
+.sliderElements:after {
+    content: ".";
+    display: block;
+    height: .1px;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    overflow: hidden;
+}
+
+
+.cssSlider {
+    overflow-x: hidden;
+}
+ 
+.sliderElements {
+    list-style: none;
+    position: relative;
+    left: 0;
+    width: 400%;
+    margin-bottom: .8em;
+    -webkit-transition: left .8s ease-in-out;
+    -moz-transition: left .8s ease-in-out;
+    -o-transition: left .8s ease-in-out;
+    transition: left .8s ease-in-out;
+}
+ 
+.sliderElements > li {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+ 
+#slide02:checked ~ .sliderElements {
+    left: -100%;
+}
+ 
+#slide03:checked ~ .sliderElements {
+    left: -200%;
+}
+ 
+#slide04:checked ~ .sliderElements {
+    left: -300%;
+}
+ 
+
+.sliderElements figcaption {    
+    display: block;
+    color: #fff;
+    position: relative;
+    left: 0;
+    bottom:0m;
+    padding:0em;
+    text-align:center; 
+	width: 80%;
+	margin: auto;
+	font-size: 25px;
+}
+ 
+
+.sliderElements img {
+    width: 80%;
+	display:block;
+	margin: auto;	
+}
+ 
+ 
+
+.cssSlider input {
+    position: absolute;
+    left: -99999px;
+}
+ 
+
+.sliderControls {
+    text-align: center;
+}
+ 
+
+.sliderControls li {
+    display: inline-block;
+}
+ 
+
+.sliderControls label {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    background: #68B022;
+    color: #68B022;
+}
+ 
+
+.sliderControls label:hover,
+#slide01:checked ~ .sliderControls label[for="slide01"],
+#slide02:checked ~ .sliderControls label[for="slide02"],
+#slide03:checked ~ .sliderControls label[for="slide03"],
+#slide04:checked ~ .sliderControls label[for="slide04"] {
+    background: #ddd;
+    color: #ddd;
+}
+
+a:link, a:visited {
+    background-color: #A4A4A4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #68B022;
+}
