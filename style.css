@@ -82,6 +82,22 @@ h3	{
 	text-align:center;
 }
 
+
+/* Links as button and hover */
+a:link, a:visited {
+    background-color: #A4A4A4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #68B022;
+}
+
+/* CSS Slider */
 }
 .sliderElements,
 .sliderElements figure,
@@ -195,15 +211,3 @@ h3	{
     color: #ddd;
 }
 
-a:link, a:visited {
-    background-color: #A4A4A4;
-    color: white;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: #68B022;
-}
